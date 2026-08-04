@@ -9,7 +9,7 @@ Usefull links
         - https://taginfo.openstreetmap.org/
 
 
-GENERAL ARCHITECTURE-
+GENERAL ARCHITECTURE -
     - Files need to be pulled from somewhere
         - they need to be pulled by location so as to avoid getting all 160 gb of data
     - Files will then either need to be stored
@@ -20,8 +20,12 @@ GENERAL ARCHITECTURE-
 
 
 
-
-
+CONTRIBUTING GUIDELINES -
+    - Make a local branch  (git checkout -b BRANCH_NAME)
+    - Make changes on the local branch  (git add FILE_NAME, git commit -m "COMMIT MESSAGE")
+    - Retrieve changes made in the meantime (git fetch ..., git rebase ...)
+    - Push branch to github  (git push origin)
+    - Create PR to merge branch into main
 
 
 Benton Hershberger
