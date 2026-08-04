@@ -14,7 +14,8 @@ GENERAL ARCHITECTURE -
         - they need to be pulled by location so as to avoid getting all 160 gb of data
     - Files will then either need to be stored
         - the traditional route would be a database
-        - we also could write a crate to handle file caching etc. toget more control than a database
+        - we also could write a crate to handle file caching etc... to get more control than a database
+        - The map data needs to be segmented into blocks of map so that the backend can discard the useless data.
     - Some sort of rest api for map data
 
 
