@@ -4,10 +4,15 @@ As of right now no plans have been made for a front end.
 Usefull links
     General info on OSM data structure and methods of retrieval
         - https://www.geoapify.com/ways-to-get-openstreetmap-data/
-
+        - https://wiki.openstreetmap.org/wiki/Downloading_data
     List of all key - tags for OSM data
         - https://taginfo.openstreetmap.org/
 
+PROJECT DESCRIPTION AND CAPSTONE GOALS - 
+    - There isn't a plug and play Maps server software suite that isn't doggy doodoo
+    - So this is gonna fix it
+    - Before all else the maps should WORK with reasonable defaults and a sub 10 minute initial setup
+    - 
 
 GENERAL ARCHITECTURE -
     - Files need to be pulled from somewhere
@@ -16,7 +21,8 @@ GENERAL ARCHITECTURE -
         - the traditional route would be a database
         - we also could write a crate to handle file caching etc... to get more control than a database
         - The map data needs to be segmented into blocks of map so that the backend can discard the useless data.
-    - Some sort of rest api for map data
+    - Some sort of rest api for map data (maybe following the google API to help with compatability)
+    - 
 
 
 
