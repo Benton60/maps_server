@@ -1,7 +1,5 @@
-mod lib;
-use lib::check;
+mod osm_api;
 
 fn main() {
-    println!("Hello, world!");
-    check::check();
+    osm_api::retrieve_region(osm_api::OsmRegion::NorthAmerica(osm_api::north_america::NorthAmericaRegion::UsMidwest), "/home/benton/Code/maps_server/downloads/test1.pbf");
 }
