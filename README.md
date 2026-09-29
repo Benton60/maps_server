@@ -1,20 +1,20 @@
 This is intended to be a self-hosted maps server backend in rust. 
 As of right now no plans have been made for a front end.
 
-Usefull links
+## Usefull links
     General info on OSM data structure and methods of retrieval
         - https://www.geoapify.com/ways-to-get-openstreetmap-data/
         - https://wiki.openstreetmap.org/wiki/Downloading_data
     List of all key - tags for OSM data
         - https://taginfo.openstreetmap.org/
 
-PROJECT DESCRIPTION AND CAPSTONE GOALS - 
+## PROJECT DESCRIPTION AND CAPSTONE GOALS - 
     - There isn't a plug and play Maps server software suite that isn't doggy doodoo
     - So this is gonna fix it
     - Before all else the maps should WORK with reasonable defaults and a sub 10 minute initial setup
     - 
 
-GENERAL ARCHITECTURE -
+## GENERAL ARCHITECTURE -
     - Files need to be pulled from somewhere
         - they need to be pulled by location so as to avoid getting all 160 gb of data
     - Files will then either need to be stored
@@ -27,7 +27,7 @@ GENERAL ARCHITECTURE -
 
 
 
-CONTRIBUTING GUIDELINES -
+## CONTRIBUTING GUIDELINES -
     - Make a local branch  (git checkout -b BRANCH_NAME)
     - Make changes on the local branch  (git add FILE_NAME, git commit -m "COMMIT MESSAGE")
     - Retrieve changes made in the meantime (git fetch ..., git rebase ...)
@@ -35,4 +35,4 @@ CONTRIBUTING GUIDELINES -
     - Create PR to merge branch into main
 
 
-Benton Hershberger
+## Benton Hershberger
